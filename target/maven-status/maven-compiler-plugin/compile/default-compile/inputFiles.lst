@@ -1,0 +1,14 @@
+/home/f/IdeaProjects/booksLib/src/main/java/books/services/IssuancesService.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/services/impl/IssuanceServiceImpl.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/repository/UsersRepository.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/repository/BooksRepository.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/services/impl/BooksServiceImpl.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/BooksLibApplication.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/services/impl/UsersServiceImpl.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/MyController.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/entities/User.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/services/UsersService.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/services/BooksService.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/entities/Issuance.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/repository/IssuancesRepository.java
+/home/f/IdeaProjects/booksLib/src/main/java/books/entities/Book.java

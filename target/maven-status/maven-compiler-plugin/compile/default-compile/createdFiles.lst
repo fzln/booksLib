@@ -1,0 +1,14 @@
+books/services/impl/UsersServiceImpl.class
+books/services/BooksService.class
+books/BooksLibApplication.class
+books/repository/BooksRepository.class
+books/services/impl/BooksServiceImpl.class
+books/services/UsersService.class
+books/entities/User.class
+books/repository/UsersRepository.class
+books/services/IssuancesService.class
+books/MyController.class
+books/entities/Book.class
+books/entities/Issuance.class
+books/services/impl/IssuanceServiceImpl.class
+books/repository/IssuancesRepository.class
