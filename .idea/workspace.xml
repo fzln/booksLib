@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb48fcb8-8436-4c69-9761-dc5bc9f4f487" name="Default" comment="myUpd">
+    <list default="true" id="cb48fcb8-8436-4c69-9761-dc5bc9f4f487" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/books/MyUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tz.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/books/MyController.java" afterPath="$PROJECT_DIR$/src/main/java/books/MyController.java" />
     </list>
     <ignored path="booksLib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="BooksRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -951,7 +952,7 @@
       <option name="presentableId" value="Default" />
       <updated>1470824273255</updated>
       <workItem from="1470824274529" duration="45649000" />
-      <workItem from="1470933286746" duration="2711000" />
+      <workItem from="1470933286746" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="myUpd">
       <created>1470935146867</created>
@@ -960,11 +961,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470935146867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="myUpd1">
+      <created>1470936014567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470936014567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48360000" />
+    <option name="totallyTimeSpent" value="48453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="119" y="25" width="1724" height="1000" extended-state="0" />
@@ -1013,7 +1021,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="myUpd" />
-    <option name="LAST_COMMIT_MESSAGE" value="myUpd" />
+    <MESSAGE value="myUpd1" />
+    <option name="LAST_COMMIT_MESSAGE" value="myUpd1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1370,8 +1379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="81">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
