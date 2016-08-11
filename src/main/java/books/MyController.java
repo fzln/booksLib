@@ -56,22 +56,8 @@ public class MyController {
             @RequestParam("issu") String issu,
             @RequestParam("return") String retTo) {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        Calendar cIssu = Calendar.getInstance();
-        try {
-            cIssu.setTime(sdf.parse(issu));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        Calendar cReturn = Calendar.getInstance();
-        try {
-            cReturn.setTime(sdf.parse(retTo));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        Issuance issuance = new Issuance(users.findById(userId), books.findById(bookId), cIssu, cReturn);
+        Issuance issuance = new Issuance(users.findById(userId), books.findById(bookId),
+                MyUtils.str2Calendar(issu), MyUtils.str2Calendar(retTo));
 
         return issuances.add(issuance);
     }
@@ -86,16 +72,8 @@ public class MyController {
             @RequestParam("issuance") Long issuanceId,
             @RequestParam("return") String retTo) {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        Calendar cReturn = Calendar.getInstance();
-        try {
-            cReturn.setTime(sdf.parse(retTo));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
         Issuance issuance = issuances.findById(issuanceId);
-        issuance.setReturnDate(cReturn);
+        issuance.setReturnDate(MyUtils.str2Calendar(retTo));
         issuances.update(issuance);
     }
 
