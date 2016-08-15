@@ -53,7 +53,11 @@ public class MyController {
             @RequestParam("issu") String issu,
             @RequestParam("return") String retTo) {
 
-        Issuance issuance = new Issuance(users.findById(userId), books.findById(bookId),
+        User user=users.findById(userId);
+        Book book=books.findById(bookId);
+        if(user == null || book == null) return null;
+
+        Issuance issuance = new Issuance(user, book,
                 MyUtils.str2Calendar(issu), MyUtils.str2Calendar(retTo));
 
         return issuances.add(issuance);
@@ -70,6 +74,8 @@ public class MyController {
             @RequestParam("return") String retTo) {
 
         Issuance issuance = issuances.findById(issuanceId);
+        if(issuance == null) return;
+
         issuance.setReturnDate(MyUtils.str2Calendar(retTo));
         issuances.update(issuance);
     }

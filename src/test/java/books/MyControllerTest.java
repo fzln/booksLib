@@ -38,7 +38,7 @@ public class MyControllerTest {
     }
 
     @Test
-    public void checkBok() throws Exception {
+    public void checkBook() throws Exception {
 
         this.mockMvc.perform(get("/book/11"))
                 .andDo(print())

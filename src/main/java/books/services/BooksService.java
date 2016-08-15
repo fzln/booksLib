@@ -8,11 +8,11 @@ import java.util.List;
  * Created by f on 10.08.16.
  */
 public interface BooksService {
-    public Book add(Book person);
+    public Book add(Book book);
 
-    public void update(Book person);
+    public void update(Book book);
 
-    public void delete(Book person);
+    public void delete(Book book);
     //public void delete(long id);
 
     public void deleteAll();

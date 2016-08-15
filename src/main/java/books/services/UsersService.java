@@ -8,11 +8,11 @@ import java.util.List;
  * Created by f on 10.08.16.
  */
 public interface UsersService {
-    public User add(User person);
+    public User add(User user);
 
-    public void update(User person);
+    public void update(User user);
 
-    public void delete(User person);
+    public void delete(User user);
     //public void delete(long id);
 
     public void deleteAll();
